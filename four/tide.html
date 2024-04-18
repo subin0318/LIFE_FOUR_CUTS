@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1500, initial-scale=1.0">
+<title>인생 네컷</title>
+
+<!-- main_text 폰트  --> 
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+<!-- serve_text 폰트 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+ 
+
+</head>
+
+<style>
+body, BOX, h1, p { /* body, BOX, h1, p 리셋 */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+    
+.header {
+  
+  width: 550px; /* 큰 네모의 너비 */
+  height: 20in; /* 큰 네모의 높이 */
+  background-color: #aed1df;/* 큰 네모의 배경색 */
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 35px; /*  header 안 공간을 넗힘 */
+  background-image: url("image/blue.jpg"); /* 이미지 생성 */
+  background-position: right center; /* 배경 이미지를 오른쪽 중앙으로 정렬합니다. */
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차도록 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+
+  
+  
+}
+
+
+
+/* BOX1,BOX2,BOX3,BOX4 각자 다른 이미지를 쓰기위해 속성값은 같게하나 이미지를 불러올
+  때 url은 각각 다른걸 쓴다 */
+
+
+.BOX1 {
+  
+  width: 400px; /* 작은 네모의 너비 */
+  height: 280px; /* 작은 네모의 높이, 수정된 부분 */
+  background-color: white; /* 작은네모의 색깔   */
+  margin: 60px auto 70px; 
+  /* 작은 네모 top은 60px 이며 right 와 left 은 수평으로 가운데 정렬 bottom이 70px 여백을 만들어준다 */
+  padding: 20px; /* 안쪽 여백을 20px로 설정*/
+  background-image: url("");
+  background-position: right center; /* 배경 이미지를 오른쪽으로 정렬합니다. */
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차도록 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+  
+  
+}
+    
+.BOX2 {
+ 
+  width: 400px; /* 작은 네모의 너비 */
+  height: 280px; /* 작은 네모의 높이, 수정된 부분 */
+  background-color: white; /* 작은네모의 색깔   */
+  margin: 60px auto 70px; 
+  /* 작은 네모 top은 60px 이며 right 와 left 은 수평으로 가운데 정렬 bottom이 70px 여백을 만들어준다 */
+  padding: 20px; /* 안쪽 여백을 20px로 설정*/
+  background-image: url("");
+  background-position: right center; /* 배경 이미지를 오른쪽으로 정렬합니다. */
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차도록 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+  
+  
+}
+
+.BOX3 {
+ 
+  width: 400px; /* 작은 네모의 너비 */
+  height: 280px; /* 작은 네모의 높이, 수정된 부분 */
+  background-color: white; /* 작은네모의 색깔   */
+  margin: 60px auto 70px; 
+  /* 작은 네모 top은 60px 이며 right 와 left 은 수평으로 가운데 정렬 bottom이 70px 여백을 만들어준다 */
+  padding: 20px; /* 안쪽 여백을 20px로 설정*/
+  background-image: url("");
+  background-position: right center; /* 배경 이미지를 오른쪽으로 정렬합니다. */
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차도록 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+  
+  
+  
+}
+
+.BOX4 {
+  
+  width: 400px; /* 작은 네모의 너비 */
+  height: 280px; /* 작은 네모의 높이, 수정된 부분 */
+  background-color: white; /* 작은네모의 색깔   */
+  margin: 60px auto 70px; 
+  /* 작은 네모 top은 60px 이며 right 와 left 은 수평으로 가운데 정렬 bottom이 70px 여백을 만들어준다 */
+  padding: 20px; /* 안쪽 여백을 20px로 설정*/
+  background-image: url("");
+  background-position: right center; /* 배경 이미지를 오른쪽으로 정렬합니다. */
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차도록 설정 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+  
+  
+  
+}
+
+/* -------------------------------------------------------------------- */
+    
+    
+    
+.main_text { /* main_text 폰트 */
+ 
+  font-family: "Fjalla One", sans-serif; 
+    /* Fjalla One 글꼴로 설정하며 글꼴이 안됬을때 sans-serif */
+  font-weight: bold; /* 글꼴을 두껍게 설정 normal(기본) */
+  font-style: normal; /* (기울임 없는) 스타일로 설정합니다 */
+  text-align: center; /* 텍스트  위치를 가운데 설정 */
+  font-size: 50px; /* 글꼴 크기  */ 
+  color: #F7FE2E;  /* 폰트 색깔 */
+ 
+
+}
+
+
+.serve_text { /* serve_text 폰트 */
+     color: #F7FE2E; /* 텍스트 색깔 */
+	    text-align: center;  /* 텍스트 위치를 오른쪽으로 정렬 */
+     font-family: "Hi Melody", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 50px;
+}
+    
+
+.FCB_img {
+       
+    
+    position: relative;
+    width : 240px;
+    bottom :50px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+
+    
+
+</style>
+
+
+
+<body>
+
+<div class="header">
+    <h1 class="serve_text">"푸른 바다의 계절" <br> "여름" </h1>
+
+    <div class="BOX1"></div>
+    <div class="BOX2"></div>
+    <div class="BOX3"></div>
+    <div class="BOX4"></div>
+ 
+    </div>
+
+   
+      
+</body>
+</html>
