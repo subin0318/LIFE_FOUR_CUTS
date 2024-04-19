@@ -32,3 +32,11 @@
 2. 새로운 프로젝트를 만들 수 있어서 기쁨입니다.
 3. 앱 개발자로 준비하는데 한 걸음 더 나아간 것 같습니다.
 4. '인생네컷'에 기본 프레임을 만들어 놓으니 새로운 프레임을 계속 만들 수 있습니다. 길이부터 이미지 삽입까지 다양한 기능을 추가할 수 있습니다.
+
+## 결과 사진
+
+![바르셀로나](https://github.com/subin0318/LIFE_FOUR_CUTS/assets/156440512/32f8044c-35bf-4f3e-8097-086e5894650a)
+
+
+![인생네컷 공부](https://github.com/subin0318/LIFE_FOUR_CUTS/assets/156440512/ec4e16ad-d3d4-4b8f-b584-2dea84c78766)
+![인생네컷 공부 2](https://github.com/subin0318/LIFE_FOUR_CUTS/assets/156440512/b071cf09-38dd-4686-9aba-aa6116ec96d9)
